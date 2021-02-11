@@ -1,0 +1,7 @@
+anisotropic_level=1.000000
+cubemap=false
+filter=point
+s_rgb=true
+version=2
+wrap_x=clamp
+wrap_y=clamp

@@ -6,7 +6,7 @@ gem_set_up_workspace("${CMAKE_CURRENT_LIST_DIR}/workspace"
 
 add_subdirectory(Components)
 add_subdirectory(GodRays)
-add_subdirectory(Input)
+add_subdirectory(GUI)
 add_subdirectory(Lighting)
 add_subdirectory(Particles)
 add_subdirectory(Shadows)

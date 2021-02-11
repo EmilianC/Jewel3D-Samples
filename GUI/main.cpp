@@ -77,7 +77,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine,
 	Application.SetUpdatesPerSecond(config.GetInt("updatesPerSecond"));
 	Application.SetFPSCap(config.GetInt("FPSCap"));
 
-	if (!Application.CreateGameWindow("Gemcutter Sample - Input", config.GetInt("openGL_Major"), config.GetInt("openGL_Minor")))
+	if (!Application.CreateGameWindow("Gemcutter Sample - GUI", config.GetInt("openGL_Major"), config.GetInt("openGL_Minor")))
 	{
 		FocusConsoleWindow();
 		ErrorBox("Failed to create window. See \"Log_Output.txt\" for details.");
